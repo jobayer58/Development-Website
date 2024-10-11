@@ -18,7 +18,7 @@ body {
     width: 1915px;
     height: 872px;
     /* background-position:center; */
-    
+
 }
 
 .banner-page {
@@ -29,12 +29,12 @@ body {
     align-items: center;
     /* margin: 24px 0; */
     gap: 40px;
-    
+
 }
 
 .banner-profile {
     margin-top: 30px;
-    width: 330px ;
+    width: 330px;
 }
 
 .banner-title {
@@ -66,5 +66,13 @@ body {
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-    
+
+}
+
+/* shared styles in main section */
+.main-paper {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    background-color: rgba(13, 19, 33, 0.02);
+    margin:  100px 200px;
 }
