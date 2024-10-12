@@ -74,5 +74,114 @@ body {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     background-color: rgba(13, 19, 33, 0.02);
-    margin:  100px 200px;
+    margin: 100px 200px;
+    height: 1750px;
+    
 }
+
+.main-paper-styles {}
+
+.paper-heading {
+    text-align: center;
+
+}
+
+.paper-name {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    margin-top: 100px;
+    padding: 80px 0px 0px 0px;
+
+}
+
+.paper-name-description {
+    color: rgb(101, 106, 116);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 30px;
+    padding: 0px 0px 58px 0px;
+
+}
+
+/* layer shared styles */
+.paper-layer-1 {
+    display: flex;
+    margin: 2px 120px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding: 70px 0px 70px 0px;
+    border-radius: 16px;
+    gap: 30;
+
+}
+
+.paper-layer-2 {
+    display: flex;
+    margin: 2px 120px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding: 70px 0px 70px 0px;
+    border-radius: 16px;
+    margin-top: 32px;
+
+}
+.paper-layer-3 {
+    display: flex;
+    margin: 2px 120px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding: 70px 0px 70px 0px;
+    border-radius: 16px;
+    margin-top: 32px;
+
+}
+
+.paper-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+    
+}
+
+.paper-description {
+    color: rgb(101, 106, 116);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+}
+
+.btn-prime {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 12px 20px;
+    margin: 32px 0px;
+    background-color: #fff;
+
+}
+
+
+
+
+
