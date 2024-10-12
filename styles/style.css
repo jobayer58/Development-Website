@@ -47,12 +47,14 @@ body {
 }
 
 .banner-description {
-    color: rgb(101, 106, 116);
+    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0%;
+    opacity: 0.7;
+
 
 }
 
@@ -66,6 +68,7 @@ body {
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
+
 
 }
 
@@ -99,7 +102,7 @@ body {
 }
 
 .paper-name-description {
-    color: rgb(101, 106, 116);
+    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -107,6 +110,7 @@ body {
     letter-spacing: 0%;
     margin-top: 30px;
     padding: 0px 0px 58px 0px;
+    opacity: 0.7;
 
 }
 
@@ -157,7 +161,7 @@ body {
 }
 
 .paper-description {
-    color: rgb(101, 106, 116);
+    color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -165,6 +169,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
     margin: 16px 0px;
+    opacity: 0.7;
 }
 
 .btn-prime {
@@ -182,7 +187,12 @@ body {
 
 }
 
+
 /* shared style inspiration section */
+.inspiration-hot {
+    height: 1090px;
+}
+
 .inspiration {
     text-align: center;
 }
@@ -197,7 +207,7 @@ body {
 }
 
 .inspiration-description {
-    color: rgb(101, 106, 116);
+    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -205,6 +215,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     margin-top: 24px;
+    opacity: 0.7;
 }
 
 .play {
@@ -222,3 +233,104 @@ body {
     margin: 40px;
 }
 
+/* shared style current section */
+.current {
+    text-align: center;
+    height: 200px;
+}
+
+.current-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+
+}
+
+.current-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 30px;
+
+}
+
+.current-product {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    height: 500px;
+
+}
+
+.current-product-1 {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 464px;
+    height: 399px;
+    gap: 30px;
+
+}
+
+.current-product-2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 464px;
+    height: 399px;
+}
+
+.current-product-3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 464px;
+    height: 399px;
+}
+
+.img {
+    width: 76px;
+    height: 76px;
+    margin: 60px 0px 2px 40px;
+
+}
+
+.product-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin: 30px 0px 2px 40px;
+}
+
+.product-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 30px 0px 2px 40px;
+}
+
+.ancor {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-left: 40px;
+
+
+}
