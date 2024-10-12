@@ -68,7 +68,7 @@ body {
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-
+    cursor: pointer;
 
 }
 
@@ -184,6 +184,7 @@ body {
     padding: 12px 20px;
     margin: 32px 0px;
     background-color: #fff;
+    cursor: pointer;
 
 }
 
@@ -332,5 +333,110 @@ body {
     letter-spacing: 0%;
     margin-left: 40px;
 
+}
 
+/* shared styles in footer */
+.footer-1 {
+    height: 730px;
+}
+
+.support-me {
+    padding: 64px 48px 64px 48px;
+    margin: 20px 220px;
+    height: 500px;
+    background-position: bottom;
+    background-size: cover;
+    background-image: linear-gradient(45deg, transparent, rgb(27, 26, 26)), url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Support-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+
+}
+
+.Support-description {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+.input-text {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-top: 40px;
+
+}
+
+.input-submit {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    width: 120px;
+    height: 57px;
+    padding: 17px 20px 17px 20px;
+    background: rgb(255, 255, 255);
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    cursor: pointer;
+
+}
+
+/* footer-2 */
+
+.footer-2 {
+    display: flex;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-around;
+    align-items: center;
+    gap: 250px;
+    
+}
+
+.Commitment-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+
+.fb{
+    text-decoration: none;
 }
