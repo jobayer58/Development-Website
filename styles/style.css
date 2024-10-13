@@ -337,15 +337,14 @@ body {
 
 /* shared styles in footer */
 .footer-1 {
-    height: 730px;
+    height: 450px;
 }
 
 .support-me {
     padding: 64px 48px 64px 48px;
     margin: 20px 220px;
-    height: 500px;
-    background-position: bottom;
-    background-size: cover;
+    background-position:center;
+    background-size:100%;
     background-image: linear-gradient(45deg, transparent, rgb(27, 26, 26)), url('../assets/handshake.jpg');
     background-repeat: no-repeat;
     border-radius: 16px;
